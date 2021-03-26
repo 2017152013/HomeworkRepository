@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header{
+    font-family: 'Do Hyeon', sans-serif;
+    height: 100px;
+    background-color: #1b4569;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p{
+    color: #ffccd4;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#menu{
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu-item{
+    margin:24px;
+}
+
+#content{
+    margin: 100px;
+}
+
+#content h1{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #1b4569;
+}
+
+#content form{
+    padding: 20px;
+    border: 3px dotted #ffccd4;
+}
+
+#submit{
+    border: none;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #1b4569;
+    color: #ffffff;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#reset{
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #5b656e;
+    color: #ffffff;
+}
+
+#reset:hover{
+    cursor: pointer;
+}
+
+#signup-btn{
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ffccd4;
+    color: #5b656e;
+}
+
+#signup:hover{
+    cursor:pointer
+}
+
+.login-content{
+    text-align: center;
+}
+
+.login-content input{
+    width: 240px;
+    height: 30px;
+    padding: 3px;
+    font-size: 14px;
+}
