@@ -1,0 +1,146 @@
+[
+    {
+        "id":1,
+        "name":"카카오 후로스티드",
+        "category":"chocodonut",
+        "price":1300,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/big_4.png",
+        "info":"카카오의 진한 맛과 부드러운 도넛이 조화된 제품",
+        "kcal":190
+    },
+    {
+        "id":2,
+        "name":"카카오하니딥",
+        "category":"chocodonut",
+        "price":900,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/big_746.png",
+        "info":"달달한 초코맛의 촉촉한 케익도넛",
+        "kcal":240
+    },
+    {
+        "id":3,
+        "name":"카카오하니딥먼치킨",
+        "category":"chocodonut",
+        "price":400,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/big_754.png",
+        "info":"진한 카카오맛을 강조한 부드러운 먼치킨",
+        "kcal":61
+    },
+    {
+        "id":4,
+        "name":"바바리안먼치킨",
+        "category":"plaindonut",
+        "price":400,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/big_34.png",
+        "info":"부드러운 바바리안 필링을 넣은 한 입 크기 도넛",
+        "kcal":38
+    },
+    {
+        "id":5,
+        "name":"카푸치노 츄이스티",
+        "category":"plaindonut",
+        "price":1500,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/big_726.png",
+        "info":"쫄깃한 도넛에 카푸치노의 풍미가 듬뿍!",
+        "kcal":225
+    },
+    {
+        "id":6,
+        "name":"페이머스 글레이즈드",
+        "category":"plaindonut",
+        "price":1500,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/big_536.png",
+        "info":"더욱 촉촉하고 부드러워진 달콤한 정통 도넛",
+        "kcal":210
+    },
+    {
+        "id":7,
+        "name":"베이컨에그 잉글리쉬머핀",
+        "category":"sandwich",
+        "price":4000,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1586668253.png",
+        "info":"부드러운 계란과 베이컨, 치즈가 담백한 잉글리쉬머핀과 어우러진 샌드위치",
+        "kcal":290
+    },
+    {
+        "id":8,
+        "name":"콰트로 치즈 크로크무슈",
+        "category":"sandwich",
+        "price":4300,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1586667402.png",
+        "info":"부드러운 페스츄리식빵에 4가지 치즈 (모짜렐라치즈, 체다치즈, 아메리칸치즈, 고다치즈)가 들어간 고소한 치즈 풍미의 크로크무슈",
+        "kcal":395
+    },
+    {
+        "id":9,
+        "name":"스파이시 치킨 치아바타",
+        "category":"sandwich",
+        "price":3700,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1591170941.png",
+        "info":"부드러운 치아바타에 맛있게 매콤한 치킨살과 고소한 치즈가 어우러진 핫 샌드위치",
+        "kcal":510
+    },
+    {
+        "id":10,
+        "name":"아이스 아메리카노",
+        "category":"coffee",
+        "price":3500,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1607136323.png",
+        "info":"깊은 카카오의 풍미와 풍부한 바디감을 느낄 수 있는 아이스 아메리카노",
+        "kcal":100
+    },
+    {
+        "id":11,
+        "name":"아이스 카페라떼",
+        "category":"coffee",
+        "price":3800,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1607136359.png",
+        "info":"진한 에스프레소와 신선한 우유의 만남",
+        "kcal":10
+    },
+    {
+        "id":12,
+        "name":"아이스 카페모카",
+        "category":"coffee",
+        "price":4400,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1607136351.png",
+        "info":"진한 에스프레소와 달콤한 초코, 부드러운 휘핑크림이 조화로운 커피",
+        "kcal":215
+    },
+    {
+        "id":13,
+        "name":"콜드브루",
+        "category":"coffee",
+        "price":3900,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1530783543.png",
+        "info":"차가운 물로 추출하여 더욱 부드러운 풍미와 바디감을 느낄 수 있는 아이스커피",
+        "kcal":10
+    },
+    {
+        "id":14,
+        "name":"허니딸기라떼",
+        "category":"beverage",
+        "price":4900,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1607137034.png",
+        "info":"달콤한 꿀과 씹히는 식감의 딸기과육을 우유와 함께 부드럽게 즐기는 라떼 타입의 딸기 음료",
+        "kcal":255
+    },
+    {
+        "id":15,
+        "name":"플레인 요거트 스무디",
+        "category":"beverage",
+        "price":5200,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1607137022.png",
+        "info":"요거트와 우유로 만들어 상큼하고 부드럽게 마시는 플레인 요거트 스무디",
+        "kcal":350
+    },
+    {
+        "id":16,
+        "name":"레몬에이드",
+        "category":"beverage",
+        "price":4200,
+        "image":"https://www.dunkindonuts.co.kr/upload/product/1625118105.png",
+        "info":"레몬과즙이 함유된 새콤달콤한 레몬에이드",
+        "kcal":145
+    }
+]

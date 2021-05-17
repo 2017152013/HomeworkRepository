@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 1020px;
+    font-family: 'Do Hyeon', sans-serif;
+    height: 100px;
+    background-color: #1b4569;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p{
+    color: #ffccd4;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*
+#index-header-p{
+    position: relative;
+    margin-left: 0%;
+    animation-name: movingheader;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+@keyframes movingheader{
+    0% {left: 1020px;}
+    100% {left: 0px;}
+}
+
+
+nav{
+    background-color: #1b4569;
+    width: 1020px;
+}
+
+nav a{
+    color: #ffffff;
+}
+*/
+
+#menu{
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu-item{
+    margin:24px;
+}
+
+#content{
+    margin: 100px;
+}
+
+#content h1{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #1b4569;
+}
+
+#content form{
+    padding: 20px;
+    border: 3px dotted #ffccd4;
+}
+
+#submit{
+    border: none;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #1b4569;
+    color: #ffffff;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#reset{
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #5b656e;
+    color: #ffffff;
+}
+
+#reset:hover{
+    cursor: pointer;
+}
+
+#signup-btn{
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ffccd4;
+    color: #5b656e;
+}
+
+#signup:hover{
+    cursor:pointer
+}
+
+.login-content{
+    text-align: center;
+}
+
+.login-content input{
+    width: 240px;
+    height: 30px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+#index-content{
+    width: 1020px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#sidenav-container{
+    border: 1px solid #1b4569;
+    background-color: #fff3f2;
+    padding: 10px;
+}
+
+#filterForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#filter-btn{
+    border: none;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ffccd4;
+    color: #5b656e;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#products-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #1b4569;
+    background-color: #fff3f2;
+}
+
+#products-table{
+    background-color: #fff3f2;
+    border-spacing: 20px;
+}
+#products-table td{
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+#products-table td img{
+    width:300px;
+    box-shadow: 1px 1px 15px 0px grey;
+}
+#products-table td p{
+    text-align: center;
+}
+
+.detail-container{
+    visibility: hidden;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: grey;
+    font-size: 13px;
+}
+/*
+#transition-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.transition-box{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+
+.transition-box img{
+    width: 250px;
+    height: 150px;
+    transition: transform 2s;
+}
+
+.transition-box img:hover{
+    transform: scale(2, 2);
+}
+
+#multicolumn-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#multicolumn-layout{
+    column-count: 3;
+    column-gap: 20px;
+    column-width: 300px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+*/

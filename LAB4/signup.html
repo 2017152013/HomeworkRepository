@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donyu's Donut: signup</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <p>Donyu's Donut</p>
+        </a>
+        <div id="menu">
+            <a href="signup.html" class="menu-item">회원가입</a>
+            <a href="login.html" class="menu-item">로그인</a>
+        </div>
+    </header>
+
+    <div id="content">
+        <h1>회원가입</h1>
+        <form action="">
+            <small>* 표시가 붙은 항목은 필수 입력 항목입니다.</small>
+            <p>
+                <label for="id">아이디: </label>
+                <input type="text" placeholder="아이디를 입력하세요" autofocus id="id" name="id" required autocomplete="off"> *
+            </p>
+            <p>
+                <label for="pw1">비밀번호: </label>
+                <input type="password" placeholder="비밀번호를 입력하세요" id="pw1" name="pw1" required> *
+            </p>
+            <p>
+                <label for="pw2">비밀번호 확인: </label>
+                <input type="password" placeholder="비밀번호를 재입력하세요" id="pw2" name="pw2" required> *
+            </p>
+            <p>
+                <label for="name">이름: </label>
+                <input type="text" placeholder="이름을 입력하세요" id="name" name="name" required autocomplete="off"> *
+            </p>
+            <p>
+                <label for="birth">생년월일: </label>
+                <input type="date" id="birth" name="birth" required> *
+            </p>
+            <p>
+                <label for="phone">휴대폰 번호: </label>
+                <input type="tel" placeholder="###-####-####" pattern="\d{3}-\d{4}-\d{4}" id="phone" name="phone"
+                    required autocomplete="on"> *
+            </p>
+            <p>
+                <label for="email">이메일: </label>
+                <input type="email" placeholder="example@domain.com" id="email" name="email" required autocomplete="on">
+                *
+            </p>
+            <p>
+                <input type="submit" value="가입하기" id="submit">
+                <input type="reset" value="전체 지우고 재작성" id="reset">
+            </p>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donyu's Donut</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><p>Donyu's Donut</p></a>
+        <div id="menu">
+            <a href="signup.html" class="menu-item">회원가입</a>
+            <a href="login.html" class="menu-item">로그인</a>
+        </div>
+    </header>
+
+    <div id="index-content">
+        <div id="sidenav-container">
+            <h3>제품 찾기</h3>
+            <form id="filterForm">
+                <label for="category">카테고리 필터링</label>
+                <select name="category" id="category">
+                    <option value="all">전체</option>
+                    <option value="chocodonut">초코도넛</option>
+                    <option value="plaindonut">플레인도넛</option>
+                    <option value="sandwich">샌드위치</option>
+                    <option value="coffee">커피</option>
+                    <option value="beverage">음료</option>
+                </select>
+                <br>
+                <label for="keyword">키워드 검색 (제품명, 설명)</label>
+                <input type="text" id="keyword" name="keyword">
+                <br>
+                <input id="filter-btn" type="submit" value="필터">
+            </form>
+        </div>
+        
+        <div id="products-container">
+            <table id="products-table"></table>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
